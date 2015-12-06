@@ -1,0 +1,14 @@
+<section>
+    <h2 data-bind="html: displayName"></h2>
+    <div class="row-fluid">
+		<div class="modal-header">
+			<p data-bind="html: name"></p>
+		</div>
+		<div class="modal-body">
+			Company: <p data-bind="html: company"></p>
+			Contact: <p data-bind="html: contact"></p>
+		</div>
+		<button Text="Click Who?" data-bind="text: buttonText, click: click" />
+		<a href="#" data-bind="click: back">return to home page</a>
+    </div>
+</section>

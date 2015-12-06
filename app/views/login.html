@@ -1,0 +1,12 @@
+<section>
+    <h2 data-bind="html: displayName"></h2>
+    <div class="row-fluid">
+		<div class="modal-body">
+			Username: <input type="text"  data-bind="value: username, attr: {placeholder: unDefault}"/>
+			</br>
+			Password: <input type="text"  data-bind="value: password, attr: {placeholder: pwDefault}"/>
+		</div>
+		<button data-bind="text: loginText, click: post" />
+		<button data-bind="text: resetText, click: reset" />
+    </div>
+</section>
