@@ -1,36 +1,31 @@
 {
-  "name": "HTMLStarterKitPro",
-  "version": "2.0.0",
-  "description": "grunt tasks for Durandal's HTML Starter Kit to ease testing/building",
-  "main": "app/main.js",
+  "name": "mdr-search-durandal",
+  "version": "1.0.0",
+  "description": "mdr-search-demo-with-durandaljs",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "grunt jasmine:dev"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbrezoev/mdr-search-durandaljs.git"
   },
   "keywords": [
-    "Durandal",
-    "HTML Starter Kit",
-    "Grunt",
-    "Jasmine"
+    "durandal"
   ],
-  "author": "Rainer Wittmann",
-  "repository": {
-    "type": "https",
-    "url": "https://github.com/RainerAtSpirit/HTMLStarterKitPro.git"
-  },
+  "author": "D Brezoev",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbrezoev/mdr-search-durandaljs/issues"
+  },
+  "homepage": "https://github.com/dbrezoev/mdr-search-durandaljs#readme",
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-jasmine": "~0.5.2",
-    "grunt-template-jasmine-requirejs": "~0.1.7",
-    "grunt-contrib-copy": "~0.4.1",
-    "grunt-durandal": "~0.1.2",
-    "grunt-contrib-uglify": "~0.2.4",
-    "grunt-contrib-connect": "~0.5.0",
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-clean": "~0.5.0",
-    "connect-livereload": "~0.3.0",
-    "grunt-open": "~0.2.0",
-    "mout": "~0.7.1"
+    "connect-livereload": "^0.5.4",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "tiny-lr": "^0.2.1"
   }
 }
